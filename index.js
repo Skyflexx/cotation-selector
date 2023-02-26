@@ -17,3 +17,13 @@ function save() {
     countEl.textContent = 4
     count = 4
 }
+
+let logo = document.getElementById("frog1")
+function changeLogo() {
+    logo.src="frog2.png"
+        
+}
+
+function setLogo() {
+    logo.src="frog.png"
+}
