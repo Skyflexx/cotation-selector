@@ -5,7 +5,7 @@ let count = 4
 function increment() {
     count += 1
     if(count > 9){
-        count = 4
+        count = 3
     }
     countEl.textContent = count
     
@@ -14,8 +14,8 @@ function increment() {
 function save() {
     let countStr = count + " - "
     saveEl.textContent += countStr
-    countEl.textContent = 4
-    count = 4
+    countEl.textContent = 3
+    count = 3
 }
 
 let logo = document.getElementById("frog1")
